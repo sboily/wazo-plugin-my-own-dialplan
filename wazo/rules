@@ -8,7 +8,7 @@ case "$1" in
 
     package)
         mkdir -p ${pkgdir}/etc/asterisk/extensions_extra.d
-        cp helloworld.conf ${pkgdir}/etc/asterisk/extensions_extra.d/
+        cp myowndialplan.conf ${pkgdir}/etc/asterisk/extensions_extra.d/
     ;;
 
     install)

@@ -1,16 +1,11 @@
-name: wazo-plugin-demo
+name: wazo-plugin-my-own-diaplan
 namespace: quintana
 version: 0.0.1
 author: Sylvain Boily
-display_name: Plugin Demo
+display_name: My own Dialplan
 plugin_format_version: 1
-min_wazo_version: 21.07
+min_wazo_version: 23.04
 tags:
   - community
   - demo
-#depends:
-#  - name: foo
-#    namespace: foocorp
-debian_depends:
-  - vim
-homepage: https://github.com/sboily/wazo-plugin-demo
+homepage: https://github.com/sboily/wazo-plugin-my-own-dialplan
